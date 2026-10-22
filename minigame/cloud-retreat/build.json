@@ -1,0 +1,32 @@
+{
+  "name": "云间一亩田",
+  "version": "1.1.0",
+  "builtAt": "2026-10-22T19:07:12.235Z",
+  "files": [
+    {
+      "file": "index.html",
+      "bytes": 4927,
+      "sha256": "cdb7c06275c73bb4422781ccaa6d652fdc625aaac0568216e5994ea2583e3fb9"
+    },
+    {
+      "file": "game.0ebac3b41cc1.js",
+      "bytes": 121790,
+      "sha256": "0ebac3b41cc1d56a46597031ffe387c2b100b8d6d30ea0a8dc39cb9e50f99432"
+    },
+    {
+      "file": "game.7bfcd91b7716.css",
+      "bytes": 9018,
+      "sha256": "7bfcd91b7716ed788b706e038c01aaee403656de8a770e5060644cdb9414526b"
+    },
+    {
+      "file": "assets/icon.svg",
+      "bytes": 304,
+      "sha256": "b2849adbe2690e2d5b1eb2f1c3415c50990329da96bfff00f4694c11b81e53b9"
+    },
+    {
+      "file": "assets/cover.svg",
+      "bytes": 3279,
+      "sha256": "d0c6bab8650e7e781eba72d21da51cb8536a7d0d3a8a0ce347e1635325b38291"
+    }
+  ]
+}

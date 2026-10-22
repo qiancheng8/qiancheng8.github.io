@@ -1,0 +1,33 @@
+{
+  "name": "glyph-defense",
+  "formatVersion": 1,
+  "builtAt": "2026-10-22T19:11:16.796Z",
+  "entry": "index.html",
+  "files": [
+    {
+      "path": "assets/game.b70cf5624777.js",
+      "bytes": 104077,
+      "sha256": "b70cf5624777ff4c9be65e3b77923e111f077f2e5e53238bb5d1cebae95b53f3"
+    },
+    {
+      "path": "assets/styles.37b4ca44e1ae.css",
+      "bytes": 47257,
+      "sha256": "37b4ca44e1ae8b089e7eb78aeca8387796c89c3596e9f74ed298e0661c177b11"
+    },
+    {
+      "path": "assets/icon.1b39d38c0b1c.svg",
+      "bytes": 343,
+      "sha256": "1b39d38c0b1c9aa71b947703e82ef2d304ddb5c61dd460c1894c36ff14eb7e31"
+    },
+    {
+      "path": "DEPLOYMENT.txt",
+      "bytes": 481,
+      "sha256": "2c6d4532699a751c3a28654791a5cce39c13e1eb69a58795f19521d48ce37a56"
+    },
+    {
+      "path": "index.html",
+      "bytes": 13491,
+      "sha256": "61982b934b1809a54c2a4b3d1c9e0c58ae2a76ecb8f1f445fc4453c224c5d72b"
+    }
+  ]
+}

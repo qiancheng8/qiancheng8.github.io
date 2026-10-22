@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" fill="none">
+  <rect width="760" height="380" fill="#eeecdf"/>
+  <path d="m430 98 48-65 38 42 44-57 64 80Z" fill="#cdd5bd"/>
+  <path d="m445 98 33-45 20 25 25-21 31 41Z" fill="#e0e3d0"/>
+  <path d="M-20 95H170V283H405V144H583V307H780" stroke="#c4c8ab" stroke-width="47" stroke-linejoin="round"/>
+  <path d="M-20 95H170V283H405V144H583V307H780" stroke="#ded9bc" stroke-width="37" stroke-linejoin="round"/>
+  <path d="M-20 95H170V283H405V144H583V307H780" stroke="#c6c0a0" stroke-width="2" stroke-dasharray="3 10" stroke-linejoin="round"/>
+  <g fill="#f9f5e8" stroke="#b7bea3" stroke-width="2">
+    <rect x="224" y="105" width="72" height="72" rx="14"/>
+    <rect x="312" y="105" width="72" height="72" rx="14"/>
+    <rect x="224" y="193" width="72" height="72" rx="14"/>
+    <rect x="312" y="193" width="72" height="72" rx="14"/>
+    <rect x="447" y="196" width="72" height="72" rx="14"/>
+  </g>
+  <g font-family="KaiTi,STKaiti,serif" font-size="42" text-anchor="middle">
+    <text x="260" y="156" fill="#b46a40">火</text>
+    <text x="348" y="156" fill="#b46a40">炎</text>
+    <text x="260" y="244" fill="#74865b">木</text>
+    <text x="348" y="244" fill="#74865b">森</text>
+    <text x="483" y="247" fill="#728e90">水</text>
+  </g>
+  <g fill="#6f7766"><circle cx="65" cy="94" r="15"/><circle cx="120" cy="94" r="13"/><circle cx="169" cy="156" r="12"/></g>
+  <g fill="#f5f0df"><circle cx="61" cy="91" r="2"/><circle cx="69" cy="91" r="2"/><circle cx="116" cy="91" r="2"/><circle cx="124" cy="91" r="2"/></g>
+  <path d="m370 134 54-29m-49 29 13-1m-13 1 5-11" stroke="#ba9963" stroke-width="2" stroke-linecap="round"/>
+  <path d="M652 330v-53h13v-12h11v12h15v-12h11v12h13v53Z" fill="#a7b18d" stroke="#83936e" stroke-width="2"/>
+  <text x="684" y="315" text-anchor="middle" font-family="KaiTi,STKaiti,serif" font-size="27" fill="#f9f5e8">城</text>
+  <g stroke="#9aaa82" stroke-width="2" stroke-linecap="round"><path d="M82 275v-40m0 26-12-12m12 4 12-13M661 122V82m0 26-12-12m12 4 12-13M110 334l4-13 6 13M615 43l5-13 5 13"/></g>
+  <circle cx="672" cy="55" r="18" fill="#e1d6ab"/>
+</svg>

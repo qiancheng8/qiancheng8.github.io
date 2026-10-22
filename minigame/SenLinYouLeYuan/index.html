@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ed">
+  <meta name="description" content="十个亲子小游戏，120 个逐关解锁的小发现。中文语音、短时游玩、本机保存通关进度，适合 3 岁以上孩子和大人一起探索。">
+  <title>森林游乐园 · 慢慢玩，慢慢长大</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="levels.css">
+  <link rel="stylesheet" href="activities.css">
+  <script defer src="data.js"></script>
+  <script defer src="levels.js"></script>
+  <script defer src="new-games.js"></script>
+  <script defer src="art.js"></script>
+  <script defer src="activities.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#games">去选小游戏</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="森林游乐园首页"><span class="brand-icon" data-art="sprout"></span><span>森林游乐园<small>LITTLE FOREST CLUB</small></span></a>
+      <nav aria-label="主导航"><a class="nav-active" href="#games">去玩一会儿</a><button class="text-button" id="parentOpen">给家长的话</button></nav>
+      <div class="header-actions"><button id="soundToggle" class="quiet-button" aria-pressed="true"><span data-ui="sound"></span><span class="sound-label">声音开着</span></button><button id="restOpen" class="quiet-button rest-button"><span data-ui="sun"></span>休息一下</button></div>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-copy"><p class="eyebrow"><span class="tiny-leaf"></span> 3 岁以上 · 和大人一起玩</p><h1 id="heroTitle">小小探索家，<br>今天想玩<span class="title-accent">什么？<svg viewBox="0 0 210 15" aria-hidden="true"><path d="M4 10Q95-2 206 7"/></svg></span></h1><p class="hero-description">听一听，分一分，数一数。<br>每一次小小发现，都值得慢慢来。</p><a href="#games" class="primary-button explore-button">去森林里看看 <span aria-hidden="true">↘</span></a><div class="hero-footnote"><span data-ui="leaf"></span>没有倒计时，照着自己的节奏玩。</div></div>
+        <div id="heroArt" class="hero-art" role="img" aria-label="小熊、小兔和松鼠在温暖的森林里等你一起玩"></div>
+      </section>
+      <section class="games-section" id="games" aria-labelledby="gamesTitle">
+        <div class="section-heading"><div><span class="section-kicker">TEN WORLDS · 120 LITTLE DISCOVERIES</span><h2 id="gamesTitle">十个小世界，等你来发现<span class="heading-flower" aria-hidden="true">✳</span></h2></div><p>每个世界 12 关 · 一关一关解锁 <span aria-hidden="true">↓</span></p></div>
+        <div class="game-collections" id="gameGrid"></div>
+      </section>
+      <section class="outside-note"><div class="outside-art" id="outsideArt" aria-hidden="true"></div><div><p class="section-kicker">THE WORLD IS A PLAYGROUND</p><h2>玩一会儿，也去看看真实的世界。</h2><p>找一片叶子，摸一摸树皮，把今天的发现讲给大人听。</p></div><button class="outlined-button" id="outsideButton">一起去寻宝 <span aria-hidden="true">↗</span></button></section>
+    </main>
+    <footer><span class="footer-brand">一片小森林，一点点长大。</span><span>没有广告 · 没有排名 · 有你陪伴</span><button class="text-button" id="footerParent">家长小贴士 <span aria-hidden="true">↗</span></button></footer>
+  </div>
+  <dialog id="gameDialog" class="game-dialog" aria-labelledby="gameTitle">
+    <div class="game-top"><button class="quiet-button" id="gameExit"><span aria-hidden="true">←</span> 返回关卡</button><span id="gameTitle"></span><button class="quiet-button" id="gameRest"><span data-ui="sun"></span> 休息一下</button></div>
+    <div class="game-inner"><div class="game-progress" id="gameProgress" aria-label="本轮进度"></div><div class="prompt-row"><div><p class="game-kicker" id="gameKicker"></p><h2 id="gamePrompt"></h2><p id="gameHint" class="game-hint"></p></div><button class="listen-button" id="repeatPrompt"><span data-ui="sound"></span><span>再听一遍</span></button></div><div id="gameStage" class="game-stage"></div><div id="feedback" class="feedback" role="status" aria-live="polite"></div><div class="game-bottom"><span id="gentleNote">不用着急，我们慢慢来。</span><button id="nextQuestion" class="primary-button" hidden>下一题 <span aria-hidden="true">→</span></button></div></div>
+  </dialog>
+  <dialog id="levelDialog" class="level-dialog" aria-labelledby="levelTitle">
+    <div class="game-top"><button class="quiet-button" id="levelExit"><span aria-hidden="true">←</span> 回游乐园</button><span id="levelTitle"></span><button class="quiet-button" id="levelRest"><span data-ui="sun"></span> 休息一下</button></div>
+    <div class="level-inner"><div class="level-intro"><div><p class="section-kicker">ONE LITTLE STEP AT A TIME</p><h2>沿着小路，一个一个发现。</h2><p id="levelDescription"></p><button id="continueLevel" class="primary-button"></button></div><div id="levelArt" class="level-art" aria-hidden="true"></div></div><div class="level-status"><span id="levelSummary"></span><span>完成这一关，下一关就会打开。</span></div><div id="levelProgress" class="level-meter" role="progressbar" aria-label="已完成关卡数" aria-valuemin="0" aria-valuemax="12"><span></span></div><div id="levelGrid" class="level-grid" aria-label="选择关卡"></div><p class="level-save-note" id="levelSaveNote">通关进度保存在这个浏览器里。每次玩一点点，下次接着来。</p></div>
+  </dialog>
+  <dialog id="parentDialog" class="parent-dialog" aria-labelledby="parentTitle"><button class="close-button" id="parentClose" aria-label="关闭家长小贴士">×</button><p class="section-kicker">A NOTE TO GROWN-UPS</p><h2 id="parentTitle">陪伴，是最好的小礼物。</h2><p class="parent-intro">适合 3 岁以上孩子和大人一起玩。不用考孩子，聊聊他们看到了什么，就很好。</p><form id="settingsForm"><fieldset><legend>选择适合孩子的难度</legend><div class="setting-options"><label><input type="radio" name="level" value="little"><span><strong>初次探索</strong><small>更多提示 · 最多三对记忆卡</small></span></label><label><input type="radio" name="level" value="big"><span><strong>再多想一点</strong><small>四对记忆卡 · 后期六块拼图</small></span></label></div></fieldset><fieldset><legend>累计玩多久，提醒离屏休息？</legend><div class="time-options"><label><input type="radio" name="minutes" value="3"><span>3 分钟</span></label><label><input type="radio" name="minutes" value="5"><span>5 分钟</span></label><label><input type="radio" name="minutes" value="8"><span>8 分钟</span></label></div><p class="field-note">只累计游戏打开时的前台时间；这是提醒设置，不代表安全用眼时长。</p></fieldset><button class="primary-button" type="submit">保存，陪孩子一起玩 <span aria-hidden="true">✓</span></button></form><div class="parent-tips"><h3>让小眼睛也歇一歇</h3><p>画面柔和不能保证不伤眼。请在明亮、没有明显反光的环境中使用，保持合适距离，及时休息，并为户外活动留出时间。孩子揉眼、眯眼或说不舒服时，就停下来。</p><p>语音已随游戏提供；静音时也可以由大人读题。听声游戏里的叫声为语音模仿。</p><a href="https://aapos.org/glossary/screen-time-and-online-learning" target="_blank" rel="noopener noreferrer">查看儿童眼科协会的屏幕使用建议 ↗</a></div></dialog>
+  <dialog id="restDialog" class="rest-dialog" aria-labelledby="restTitle"><div id="restArt" class="rest-art" aria-hidden="true"></div><p class="section-kicker">A LITTLE PAUSE</p><h2 id="restTitle">小森林要打个盹啦。</h2><p id="restText">把屏幕放一放，和大人看看远处，<br>再一起伸个懒腰吧。</p><div class="rest-mission"><span data-ui="leaf"></span><span>小任务：去找一件软软的东西，摸摸它。</span></div><button class="primary-button" id="finishRest">结束这次游玩 <span aria-hidden="true">✓</span></button><small>休息时，换成另一个屏幕也不算离屏哦。</small></dialog>
+  <noscript><p class="noscript-note">请开启 JavaScript 后和小朋友一起玩。</p></noscript>
+</body>
+</html>
+
+

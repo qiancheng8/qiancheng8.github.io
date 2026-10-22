@@ -1,0 +1,9 @@
+字阵 / Glyph Defense
+
+入口：index.html
+站点路径：/minigame/glyph-defense/
+完整目录可直接部署到 GitHub Pages 或其他静态服务器，也可双击 index.html 离线游玩。
+运行不需要 Node.js、npm、后端服务或第三方资源。
+本机排行榜与存档由玩家浏览器保存，不包含在发布文件中。战绩可在游戏内导入导出。
+
+build.json 列出运行文件、大小与 SHA-256；带内容哈希的文件名用于更新缓存。

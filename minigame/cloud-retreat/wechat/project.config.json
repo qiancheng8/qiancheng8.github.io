@@ -1,0 +1,17 @@
+{
+  "description": "云间一亩田 · 原创修仙经营小游戏",
+  "projectname": "cloud-retreat-wechat",
+  "appid": "touristappid",
+  "compileType": "game",
+  "miniprogramRoot": "./",
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "urlCheck": true,
+    "autoCompile": true
+  },
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  }
+}
