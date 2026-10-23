@@ -1,0 +1,19 @@
+8090 像素游戏厅 v1.2.0
+
+网页入口：index.html
+静态访问路径：/minigame/retro-arcade/
+包含七款游戏：推箱子、坦克大战、小蜜蜂、俄罗斯方块、贪吃蛇、打砖块、扫雷。
+
+网页脚本与样式已合并打包，使用内容哈希文件名；无需 npm install。
+微信开发者工具导入目录：wechat
+抖音开发者工具导入目录：douyin
+原生工程仍需配置真实 AppID 并完成真机验证。
+
+静态托管不运行共享服务。推荐、投票和公开排行榜需单独部署服务端。
+当前未配置服务地址时，入口会提示尚未接入，七款游戏仍可正常游玩。
+网页服务地址可在 online-config.js 的 apiBase 中配置为 HTTPS 域名。
+服务端需设置 RETRO_ALLOWED_ORIGIN=https://qiancheng8.github.io 允许该网页访问。
+原生端另需配置各平台 request 合法域名，详见源工程 DEPLOY.md。
+
+build.json 记录本次导出文件的 SHA-256 校验值。
+本次仅生成和复制产物，未执行 Git 提交、推送或线上发布。

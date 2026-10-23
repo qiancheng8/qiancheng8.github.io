@@ -1,0 +1,16 @@
+{
+  "description": "8090 像素游戏厅：七款经典小游戏合集",
+  "projectname": "8090-retro-arcade-douyin",
+  "appid": "",
+  "compileType": "game",
+  "miniprogramRoot": "./",
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "urlCheck": true
+  },
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  }
+}

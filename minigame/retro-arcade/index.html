@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f3eddf">
+  <meta name="description" content="8090 像素游戏厅，推箱子、坦克大战、小蜜蜂、俄罗斯方块、贪吃蛇、打砖块、扫雷，七款经典点开就玩。">
+  <title>8090 像素游戏厅 · 快乐，不用投币</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="game.31424ab77f5e.css">
+  <script defer src="online-config.js"></script>
+  <script defer src="game.6013e7958208.js"></script>
+</head>
+<body>
+  <div class="top-stripe"></div>
+  <div class="page">
+    <header class="header">
+      <a class="brand" href="./" aria-label="8090 像素游戏厅首页"><span class="brand-icon"><i></i><b>· ·</b></span><span><strong>8090</strong><span class="brand-name">像素游戏厅<small>THE GOOD OLD ARCADE</small></span></span></a>
+      <nav aria-label="主导航"><button class="nav-button active" data-view="games">游戏大厅</button><button class="nav-button" data-view="records">我的战绩</button><button class="nav-button" data-view="help">玩法说明</button></nav>
+      <button class="sound-button" aria-label="开启音效" title="开启音效"><span>♪</span><span class="sound-label">音效关</span></button>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-copy"><div class="open-label"><span></span> 快乐营业中 <b>·</b> EST. 1980s</div><h1>放学了，<br>去<span class="hero-word">游戏厅</span>吧<span class="hero-dot">。</span></h1><p>给长大后的你，留一枚游戏币。<br>那些年没打通的关，今天再来一局。</p><div class="hero-actions"><button class="primary-button" id="random-play"><span>▷</span> 随便玩一个 <span class="button-arrow">↗</span></button><span class="free-note">快乐，不用投币 <svg viewBox="0 0 80 30" aria-hidden="true"><path d="M2 5 Q37 28 72 10 M61 7 L74 9 L67 21"/></svg></span></div><div class="hero-footnote"><span>✦ 原汁原味的像素快乐</span><span>✦ 手机 / 电脑都能玩</span></div></div>
+        <div class="hero-art" aria-hidden="true"><div class="art-checker"></div><span class="art-star star-one">✳</span><span class="art-star star-two">✧</span><div class="nostalgia-stamp"><span>童 年</span><strong>无限续币</strong><small>NO COINS NEEDED</small></div><div class="arcade-machine"><div class="arcade-top"><i>✦</i><span>HAPPY 8090</span><i>✦</i></div><div class="arcade-bezel"><div class="arcade-screen"><div class="screen-score">1UP <span>008090</span><span>HI-SCORE</span></div><canvas id="hero-canvas" width="480" height="480"></canvas><span class="insert-coin">PRESS START</span></div></div><div class="arcade-deck"><div class="joystick"><i></i><b></b></div><div class="arcade-buttons"><i></i><i></i><i></i></div></div><div class="arcade-lower"><span>好 好 玩</span><div class="coin-slot"></div><small>ONE MORE GAME?</small></div><div class="machine-foot left"></div><div class="machine-foot right"></div></div><div class="art-caption"><span>↖</span> 这台机器，承包过整个夏天。</div></div>
+      </section>
+      <div class="ticker"><span>INSERT JOY. PRESS PLAY.</span><i>✦</i><span>经典不过时，快乐不打烊</span><i>✦</i><span>NO DOWNLOAD. JUST PLAY.</span><i>✦</i><span>致我们闪闪发光的童年</span><i>✦</i></div>
+      <div class="social-entry"><button data-social="recommend"><span>＋ 想玩什么？</span><strong>推荐一款经典游戏 <b>↗</b></strong><small>提名 · 投票 · 看推荐榜</small></button><button data-social="leaderboard"><span>★ 高手在民间</span><strong>看看游戏排行榜 <b>↗</b></strong><small>七款独立榜单 · 找到你的名次</small></button></div>
+      <section id="collection" class="collection" aria-labelledby="section-title">
+        <div class="section-header"><div><p class="eyebrow">THE CLASSICS COLLECTION</p><h2 id="section-title">今日份快乐，已就位<span>。</span></h2></div><span class="collection-count">共 <strong data-game-count>07</strong> 款经典 <span>↙ 挑一个，开玩</span></span></div>
+        <div class="collection-toolbar"><div class="filters" role="group" aria-label="游戏分类"><button class="filter active" data-filter="all">全部游戏 <span data-game-count>07</span></button><button class="filter" data-filter="puzzle">益智解谜</button><button class="filter" data-filter="arcade">热血街机</button><button class="filter" data-filter="shooter">飞行射击</button></div><span class="local-note"><span></span> 游戏记录自动保存在本机</span></div>
+        <div id="games-view" class="game-grid"></div>
+        <div id="records-view" class="records-view" hidden></div>
+        <div id="help-view" class="help-view" hidden></div>
+      </section>
+      <section class="memory-strip"><span class="pixel-heart">♥</span><div><strong>有些快乐，长大了也没变。</strong><p>不用下载，不用长大。留几分钟，做回那个放学后的小孩。</p></div><span class="memory-code">SINCE OUR<br><b>GOOD OLD DAYS</b></span></section>
+    </main>
+    <footer><span><b>8090</b> 像素游戏厅</span><span>原创像素 · 经典玩法致敬 · 微信 / 抖音小游戏</span><a href="DEPLOYMENT.txt">关于游戏 ↗</a></footer>
+  </div>
+  <dialog id="game-dialog" aria-labelledby="game-title"><div class="game-shell"><div class="play-header"><div><span class="eyebrow" id="game-english"></span><h2 id="game-title"></h2></div><button class="close-button" id="close-game" aria-label="返回游戏厅">✕</button></div><div class="play-stats"><span id="stage-label"></span><span id="score-label"></span><span id="lives-label"></span></div><div class="play-screen"><canvas id="game-canvas" width="480" height="480" tabindex="0" aria-label="游戏画面，使用方向键操作"></canvas><div id="game-overlay" class="game-overlay" hidden><span id="overlay-kicker"></span><h3 id="overlay-title"></h3><p id="overlay-description"></p><button class="primary-button" id="overlay-action"></button><button class="text-button" id="overlay-home">返回游戏厅 ↗</button></div></div><div class="play-tools"><button id="pause-game">Ⅱ 暂停</button><button id="restart-game">↻ 重玩</button><button id="undo-game">↶ 撤销一步</button><button id="flag-game" hidden>⚑ 插旗关</button><button class="sound-button"><span>♪</span><span class="sound-label">音效关</span></button></div><div class="touch-controls"><div class="dpad"><button data-control="up" aria-label="向上">↑</button><button data-control="left" aria-label="向左">←</button><button data-control="down" aria-label="向下">↓</button><button data-control="right" aria-label="向右">→</button></div><button class="fire-button" data-control="fire">开 火<small>FIRE</small></button><span class="sokoban-note">慢慢想，<br>总会有出路。</span></div><p class="keyboard-hint" id="keyboard-hint"></p><button class="play-rank-button" id="play-rank-game">★ 查看本游戏排行榜</button></div></dialog>
+  <dialog id="social-dialog" aria-labelledby="social-title"><div class="social-shell"><header class="social-header"><div><p class="eyebrow">THE ARCADE COMMUNITY</p><h2 id="social-title">下一款，听你的。</h2></div><button id="close-social" class="close-button" aria-label="关闭推荐和排行榜">✕</button></header><div class="social-tabs"><button data-social-tab="recommend" class="active">游戏推荐榜</button><button data-social-tab="leaderboard">游戏成绩榜</button></div><div class="social-identity"><span id="player-nickname">连接后创建游客身份</span><button id="rename-player">修改昵称</button></div><p id="social-message" role="status"></p><section id="recommend-panel"><form id="recommend-form"><label>你想玩的经典游戏<input id="recommend-title" maxlength="32" required placeholder="例如：魂斗罗、吃豆人"></label><label>推荐理由 <span>选填</span><textarea id="recommend-reason" maxlength="120" rows="2" placeholder="哪段童年记忆，值得再玩一次？"></textarea></label><button class="primary-button" type="submit">＋ 推荐并投一票</button></form><div class="social-list-heading"><strong>大家最想玩的游戏</strong><span id="recommend-total"></span></div><div id="recommend-list"></div><div id="recommend-pages" class="social-pages"></div></section><section id="leaderboard-panel" hidden><label class="board-selector">选择游戏<select id="board-game"></select></label><p id="board-rule"></p><div id="board-list"></div><div id="my-rank" class="my-rank"></div><div id="board-pages" class="social-pages"></div><p class="board-note">新对局结算或退出时自动同步；推箱子、扫雷只计通关成绩。每人每款游戏保留最佳成绩。</p></section><footer class="social-footer"><span id="sync-status">真实玩家，真实成绩。</span><button id="refresh-social">↻ 刷新 / 重试同步</button></footer></div></dialog>
+  <dialog id="nickname-dialog" aria-labelledby="nickname-title"><form id="nickname-form" class="social-shell"><h2 id="nickname-title">给高手起个名字。</h2><label>公开昵称<input id="nickname-input" maxlength="12" required autocomplete="nickname"></label><p id="nickname-message" role="status"></p><div class="nickname-actions"><button type="button" id="cancel-nickname">取消</button><button class="primary-button" type="submit">保存昵称</button></div></form></dialog>
+  <div id="toast" role="status" hidden></div>
+</body>
+</html>

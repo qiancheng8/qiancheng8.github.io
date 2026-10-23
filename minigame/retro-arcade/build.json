@@ -1,0 +1,245 @@
+{
+  "name": "8090-retro-arcade",
+  "title": "8090 像素游戏厅",
+  "version": "1.2.0",
+  "builtAt": "2026-10-23T07:58:41.094Z",
+  "entry": "index.html",
+  "games": [
+    {
+      "id": "sokoban",
+      "title": "推箱子"
+    },
+    {
+      "id": "tank",
+      "title": "坦克大战"
+    },
+    {
+      "id": "bees",
+      "title": "小蜜蜂"
+    },
+    {
+      "id": "tetris",
+      "title": "俄罗斯方块"
+    },
+    {
+      "id": "snake",
+      "title": "贪吃蛇"
+    },
+    {
+      "id": "breakout",
+      "title": "打砖块"
+    },
+    {
+      "id": "mines",
+      "title": "扫雷"
+    }
+  ],
+  "apiConfigured": false,
+  "files": [
+    {
+      "file": "game.6013e7958208.js",
+      "bytes": 77425,
+      "sha256": "6013e795820866e594e1201a650e820999228909775ab445cd8ef2de1b6cee4d"
+    },
+    {
+      "file": "game.31424ab77f5e.css",
+      "bytes": 27571,
+      "sha256": "31424ab77f5ed8813e79d1845535e927c260dc74f81dc643aa9b66d168c7b4a1"
+    },
+    {
+      "file": "online-config.js",
+      "bytes": 168,
+      "sha256": "27439cfe5b8246e65d3f86f3d86cf2ee7d4b3ec822cc181b204853e7e38b0e4a"
+    },
+    {
+      "file": "index.html",
+      "bytes": 9683,
+      "sha256": "dc3329da2babab2d62cf3bddff9b053dceda59c662bad5a3d00292579c376e81"
+    },
+    {
+      "file": "assets/icon.svg",
+      "bytes": 428,
+      "sha256": "0fe6d6126c8093797e02da359aff379115b93d8cf49582aec490708e53d59ccc"
+    },
+    {
+      "file": "assets/cover.svg",
+      "bytes": 1534,
+      "sha256": "da84baf8fb21296a850762a452c4cd442cc1d4a67a7db3994b275ad58b1e767f"
+    },
+    {
+      "file": "wechat/assets/hit.wav",
+      "bytes": 5336,
+      "sha256": "b4c7a9520906a70683bbf1923beda05b22fdb319bfe73bb97cc01acc43795422"
+    },
+    {
+      "file": "wechat/assets/hurt.wav",
+      "bytes": 10628,
+      "sha256": "d7a593b79e0a75bac7ce1b6ea4db75b481d3fe9a4787c3ef4c05848296773dd1"
+    },
+    {
+      "file": "wechat/assets/icon.svg",
+      "bytes": 428,
+      "sha256": "0fe6d6126c8093797e02da359aff379115b93d8cf49582aec490708e53d59ccc"
+    },
+    {
+      "file": "wechat/assets/shoot.wav",
+      "bytes": 5336,
+      "sha256": "38f1a8740fa5db40423261c14cff816cc699c87d6cf449415457ef0801e9a819"
+    },
+    {
+      "file": "wechat/assets/win.wav",
+      "bytes": 21212,
+      "sha256": "97051f7ec3f0b9a3372f3ee8e18377ddc30c8088495c3b76f433582b5687d63e"
+    },
+    {
+      "file": "wechat/game.js",
+      "bytes": 52,
+      "sha256": "93c4e20e49264516f4bb2ef1649f2861d67e22eade879923b9d2a53025f1f2d1"
+    },
+    {
+      "file": "wechat/game.json",
+      "bytes": 64,
+      "sha256": "82526622d158db584fe0783eb469d01eaaa33a85360c28d83bf2b01cb031b8ec"
+    },
+    {
+      "file": "wechat/project.config.json",
+      "bytes": 338,
+      "sha256": "6c3db796410a4f764f52a692287a19c45f3d219dbdb611fb569c993b857c29d9"
+    },
+    {
+      "file": "wechat/README.md",
+      "bytes": 232,
+      "sha256": "f9cd90c6aa623e7f3b6058805a37acaf084baf3caffaf7101c52b4c68cc6ec96"
+    },
+    {
+      "file": "wechat/src/classics.js",
+      "bytes": 13501,
+      "sha256": "83871aa976e504950dbc5e248766962fe1d1d306efdc4950a90c88a5bf51fb2d"
+    },
+    {
+      "file": "wechat/src/core.js",
+      "bytes": 15300,
+      "sha256": "c11fd288a5fe45885208990f2363a4d7ad9e200c45c9b25c887f2316339ccb8c"
+    },
+    {
+      "file": "wechat/src/draw.js",
+      "bytes": 15134,
+      "sha256": "cd0e85e59d1aeabbc4481f4ba4514e9824ad14ba87edaa0eb2cbf05875f5ea70"
+    },
+    {
+      "file": "wechat/src/native.js",
+      "bytes": 23027,
+      "sha256": "eac678dbb089b938d5e300ab66ec716961c94229fbd9f2e65d29d7ae4a56d77d"
+    },
+    {
+      "file": "wechat/src/online-config.js",
+      "bytes": 269,
+      "sha256": "9a4a12c5af03a03cfb1e2a8a3bab08f7f2f5d2910994de1d4d0cba1e3f6da4f9"
+    },
+    {
+      "file": "wechat/src/session.js",
+      "bytes": 5766,
+      "sha256": "665182b66534e91e6dbf9d633ccb0cdb9642f4cdb9f96f0cbab3e5042659b299"
+    },
+    {
+      "file": "wechat/src/social-client.js",
+      "bytes": 4387,
+      "sha256": "1760f9c6aedf5901b686c71bca1ea9b5b4660e0e9e16807ad516b1e027223d16"
+    },
+    {
+      "file": "wechat/src/social-model.js",
+      "bytes": 1834,
+      "sha256": "6b76c23fc3563b35412098fbd9fa85f3004f7830fae9beb844338d01d0209630"
+    },
+    {
+      "file": "douyin/assets/hit.wav",
+      "bytes": 5336,
+      "sha256": "b4c7a9520906a70683bbf1923beda05b22fdb319bfe73bb97cc01acc43795422"
+    },
+    {
+      "file": "douyin/assets/hurt.wav",
+      "bytes": 10628,
+      "sha256": "d7a593b79e0a75bac7ce1b6ea4db75b481d3fe9a4787c3ef4c05848296773dd1"
+    },
+    {
+      "file": "douyin/assets/icon.svg",
+      "bytes": 428,
+      "sha256": "0fe6d6126c8093797e02da359aff379115b93d8cf49582aec490708e53d59ccc"
+    },
+    {
+      "file": "douyin/assets/shoot.wav",
+      "bytes": 5336,
+      "sha256": "38f1a8740fa5db40423261c14cff816cc699c87d6cf449415457ef0801e9a819"
+    },
+    {
+      "file": "douyin/assets/win.wav",
+      "bytes": 21212,
+      "sha256": "97051f7ec3f0b9a3372f3ee8e18377ddc30c8088495c3b76f433582b5687d63e"
+    },
+    {
+      "file": "douyin/game.js",
+      "bytes": 52,
+      "sha256": "e34f480c11a3134a467247a439993632309cb3f5b4d039527d4e5e40b6e557b9"
+    },
+    {
+      "file": "douyin/game.json",
+      "bytes": 64,
+      "sha256": "82526622d158db584fe0783eb469d01eaaa33a85360c28d83bf2b01cb031b8ec"
+    },
+    {
+      "file": "douyin/project.config.json",
+      "bytes": 326,
+      "sha256": "e1b2a5992940f2fdc769df0842e302f111ce782de6dcf592d0508592c2d8ff1f"
+    },
+    {
+      "file": "douyin/README.md",
+      "bytes": 232,
+      "sha256": "9ef16f76c863059b561e6f7d38afb314f51dfc70f02a517c67185643117203dd"
+    },
+    {
+      "file": "douyin/src/classics.js",
+      "bytes": 13501,
+      "sha256": "83871aa976e504950dbc5e248766962fe1d1d306efdc4950a90c88a5bf51fb2d"
+    },
+    {
+      "file": "douyin/src/core.js",
+      "bytes": 15300,
+      "sha256": "c11fd288a5fe45885208990f2363a4d7ad9e200c45c9b25c887f2316339ccb8c"
+    },
+    {
+      "file": "douyin/src/draw.js",
+      "bytes": 15134,
+      "sha256": "cd0e85e59d1aeabbc4481f4ba4514e9824ad14ba87edaa0eb2cbf05875f5ea70"
+    },
+    {
+      "file": "douyin/src/native.js",
+      "bytes": 23027,
+      "sha256": "eac678dbb089b938d5e300ab66ec716961c94229fbd9f2e65d29d7ae4a56d77d"
+    },
+    {
+      "file": "douyin/src/online-config.js",
+      "bytes": 269,
+      "sha256": "9a4a12c5af03a03cfb1e2a8a3bab08f7f2f5d2910994de1d4d0cba1e3f6da4f9"
+    },
+    {
+      "file": "douyin/src/session.js",
+      "bytes": 5766,
+      "sha256": "665182b66534e91e6dbf9d633ccb0cdb9642f4cdb9f96f0cbab3e5042659b299"
+    },
+    {
+      "file": "douyin/src/social-client.js",
+      "bytes": 4387,
+      "sha256": "1760f9c6aedf5901b686c71bca1ea9b5b4660e0e9e16807ad516b1e027223d16"
+    },
+    {
+      "file": "douyin/src/social-model.js",
+      "bytes": 1834,
+      "sha256": "6b76c23fc3563b35412098fbd9fa85f3004f7830fae9beb844338d01d0209630"
+    },
+    {
+      "file": "DEPLOYMENT.txt",
+      "bytes": 1049,
+      "sha256": "31e21c597bae48b2c0ccd494a3c48fa6c60cbb729909a4d00a64d6a320663223"
+    }
+  ]
+}
