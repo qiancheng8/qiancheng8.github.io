@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" fill="none">
+  <defs><pattern id="awning" width="90" height="72" patternUnits="userSpaceOnUse"><path d="M0 0h45v72H0Z" fill="#d39771"/><path d="M45 0h45v72H45Z" fill="#faecd7"/></pattern><g id="cup"><path d="M-15-13h30l-4 36h-22Z" fill="#f0d1a6" stroke="#ad8261" stroke-width="2"/><path d="M-19-14h38" stroke="#ad8261" stroke-width="5" stroke-linecap="round"/><path d="m2-14 5-20" stroke="#b87b5e" stroke-width="3"/><circle cx="-5" cy="14" r="3" fill="#a37b60"/><circle cx="5" cy="10" r="3" fill="#a37b60"/></g><g id="skewer"><path d="M0-30v68" stroke="#b39064" stroke-width="4" stroke-linecap="round"/><rect x="-16" y="-23" width="32" height="17" rx="7" fill="#c98962"/><rect x="-16" y="-1" width="32" height="17" rx="7" fill="#d49b66"/></g></defs>
+  <rect width="760" height="380" fill="#f0dfc9"/><path d="M105 21h550v58H105Z" fill="url(#awning)"/><path d="M105 79h550" stroke="#c69a74" stroke-width="4"/>
+  <path d="M133 80v231m494-231v231" stroke="#d1b28b" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#e2c7a2" stroke="#c4a079" stroke-width="2"><rect x="170" y="174" width="122" height="134" rx="10"/><rect x="319" y="174" width="122" height="134" rx="10"/><rect x="468" y="174" width="122" height="134" rx="10"/></g>
+  <g fill="#f6e8cf"><rect x="182" y="186" width="98" height="108" rx="6"/><rect x="331" y="186" width="98" height="108" rx="6"/><rect x="480" y="186" width="98" height="108" rx="6"/></g>
+  <use href="#skewer" transform="translate(212 226) rotate(-6)"/><use href="#skewer" transform="translate(257 232) rotate(7)"/>
+  <use href="#cup" transform="translate(359 225) rotate(-5)"/><use href="#cup" transform="translate(402 244) rotate(5)"/>
+  <g fill="#e9d3b0" stroke="#c0a080" stroke-width="2"><path d="M492 237q19-48 38 0-18 15-38 0Z"/><path d="M531 255q19-48 38 0-18 15-38 0Z"/></g>
+  <path d="M150 320h460" stroke="#c5a17b" stroke-width="6" stroke-linecap="round"/>
+  <g fill="#c2a179"><circle cx="93" cy="228" r="4"/><circle cx="670" cy="157" r="5"/></g><path d="m610 117 5-12 5 12-5 12Z" fill="#d3b88d"/>
+</svg>

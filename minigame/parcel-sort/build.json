@@ -1,0 +1,39 @@
+{
+  "name": "parcel-sort",
+  "title": "快递分拣",
+  "version": "1.0.0",
+  "builtAt": "2026-10-24T05:07:13.166Z",
+  "entry": "index.html",
+  "files": [
+    {
+      "file": "game.96bc3dea88fa.js",
+      "bytes": 49281,
+      "sha256": "96bc3dea88fa407ba06ca61e328412b71e928761fbe1d9b9804eeb9148180298"
+    },
+    {
+      "file": "game.f47cfc74a112.css",
+      "bytes": 29349,
+      "sha256": "f47cfc74a112fbb30b4cebf0d8e35594af53668fc93337cbe1d4637f5b5f2950"
+    },
+    {
+      "file": "index.html",
+      "bytes": 520,
+      "sha256": "1baa5cc918eb87a0c13c573cac725faa146b92d52543b96faf28286373559af5"
+    },
+    {
+      "file": "assets/icon.svg",
+      "bytes": 249,
+      "sha256": "996bce0d7785371360b8b88280b0e80f4faecea088d729d0417020643cc3e57f"
+    },
+    {
+      "file": "assets/cover.svg",
+      "bytes": 1554,
+      "sha256": "33f13a91d63e3b0e779948ade739597ab7f7c16f2d48b49664e047831d221b00"
+    },
+    {
+      "file": "DEPLOYMENT.txt",
+      "bytes": 199,
+      "sha256": "bb164ceb80e71e48bb7b8ffb6099b2f5b390bc92ca70c1a3bd9fdfcd9b156b26"
+    }
+  ]
+}

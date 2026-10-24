@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" fill="none">
+  <rect width="760" height="380" fill="#ece3ce"/>
+  <rect x="107" y="268" width="547" height="52" rx="25" fill="#c6c9ab" stroke="#aeb798" stroke-width="2"/><path d="M138 294h484" stroke="#9fac8b" stroke-width="4" stroke-dasharray="12 15" stroke-linecap="round"/>
+  <path d="m155 175 103-24 20 108-103 18Z" fill="#d6b384" stroke="#b69b72" stroke-width="2"/><path d="m203 164 21-5 20 106-20 3Z" fill="#e9d2a9"/>
+  <g transform="rotate(5 424 181)"><rect x="316" y="83" width="222" height="180" rx="10" fill="#d5ae7f" stroke="#b8996e" stroke-width="2"/><path d="M409 84h38v179h-38Z" fill="#ebd2aa"/><path d="M316 119h222" stroke="#c09c70" stroke-width="2"/><rect x="340" y="142" width="95" height="75" rx="5" fill="#f7f2df"/>
+  <text x="387" y="172" font-family="KaiTi,STKaiti,serif" font-size="25" text-anchor="middle" fill="#7e8c64">青山</text><path d="M352 190v15m5-15v15m6-15v15m4-15v15m7-15v15m5-15v15m6-15v15m4-15v15m7-15v15m5-15v15m7-15v15m5-15v15" stroke="#9b9e7e" stroke-width="2"/>
+  <path d="m479 176 18 31h-36Z" fill="#eee0b7" stroke="#bca275" stroke-width="2"/><path d="M479 185v9m0 6v1" stroke="#a27d52" stroke-width="2" stroke-linecap="round"/></g>
+  <path d="m567 176 15 9-15 9m30-18 15 9-15 9" stroke="#b0b993" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#c3b38b"><circle cx="148" cy="119" r="4"/><circle cx="607" cy="86" r="5"/></g><path d="M144 328v18m470-18v18" stroke="#a9b291" stroke-width="6" stroke-linecap="round"/>
+</svg>

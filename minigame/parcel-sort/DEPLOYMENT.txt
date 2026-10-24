@@ -1,0 +1,6 @@
+快递分拣
+
+入口：index.html
+访问路径：/minigame/parcel-sort/
+完整静态发布包，脚本和样式已合并。成绩保存在玩家浏览器。
+返回首页链接指向 ../index.html。

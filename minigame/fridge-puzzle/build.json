@@ -1,0 +1,39 @@
+{
+  "name": "fridge-puzzle",
+  "title": "冰箱补货",
+  "version": "1.0.0",
+  "builtAt": "2026-10-24T05:07:13.165Z",
+  "entry": "index.html",
+  "files": [
+    {
+      "file": "game.96bc3dea88fa.js",
+      "bytes": 49281,
+      "sha256": "96bc3dea88fa407ba06ca61e328412b71e928761fbe1d9b9804eeb9148180298"
+    },
+    {
+      "file": "game.f47cfc74a112.css",
+      "bytes": 29349,
+      "sha256": "f47cfc74a112fbb30b4cebf0d8e35594af53668fc93337cbe1d4637f5b5f2950"
+    },
+    {
+      "file": "index.html",
+      "bytes": 520,
+      "sha256": "b822028023995e2f240bc6f456fbda2231a9dd8b11f0dfde343ec402150c84bc"
+    },
+    {
+      "file": "assets/icon.svg",
+      "bytes": 249,
+      "sha256": "6421075e9330049839c615f76d53690c97a880cdd642dc3128753f99ae76a0ed"
+    },
+    {
+      "file": "assets/cover.svg",
+      "bytes": 1957,
+      "sha256": "11200acbca60a3d8cc6d01d599f3f961ab0f77f0415923960a17587dcce574c3"
+    },
+    {
+      "file": "DEPLOYMENT.txt",
+      "bytes": 201,
+      "sha256": "bb73ebd64141a363cc2a7e2e4e7d07837466a01005229582ce1d7a6daebae05b"
+    }
+  ]
+}

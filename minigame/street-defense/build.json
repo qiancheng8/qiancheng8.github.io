@@ -1,0 +1,39 @@
+{
+  "name": "street-defense",
+  "title": "字守长街",
+  "version": "1.0.0",
+  "builtAt": "2026-10-24T05:07:13.160Z",
+  "entry": "index.html",
+  "files": [
+    {
+      "file": "game.96bc3dea88fa.js",
+      "bytes": 49281,
+      "sha256": "96bc3dea88fa407ba06ca61e328412b71e928761fbe1d9b9804eeb9148180298"
+    },
+    {
+      "file": "game.f47cfc74a112.css",
+      "bytes": 29349,
+      "sha256": "f47cfc74a112fbb30b4cebf0d8e35594af53668fc93337cbe1d4637f5b5f2950"
+    },
+    {
+      "file": "index.html",
+      "bytes": 519,
+      "sha256": "ddb58d203b2b3cd1d6c3de616b2c9749ba577b8ddb5f6105575aa45a48b29157"
+    },
+    {
+      "file": "assets/icon.svg",
+      "bytes": 249,
+      "sha256": "1a506e97191f1df2297c017a0b4270ed896bdffbbfccdcb13913e01e3f95b5af"
+    },
+    {
+      "file": "assets/cover.svg",
+      "bytes": 2033,
+      "sha256": "ade3b3f7b4f9b92a659ae8d41b2bcc9f0fc2dbdeadcbe9f1e70891e26c9b991e"
+    },
+    {
+      "file": "DEPLOYMENT.txt",
+      "bytes": 202,
+      "sha256": "02cefb08ab81b58d815d8f0113f467b3d7c7d0942550dc5a6514b2817f2c5423"
+    }
+  ]
+}

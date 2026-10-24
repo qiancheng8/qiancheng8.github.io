@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" fill="none">
+  <rect width="760" height="380" fill="#e4ead9"/>
+  <path d="m42 103 50-65 44 65m465 4 46-62 68 76" fill="#d1dcc2"/>
+  <path d="M230 42v291m100-291v291m100-291v291m100-291v291" stroke="#c4cbb2" stroke-width="53"/>
+  <path d="M230 42v291m100-291v291m100-291v291m100-291v291" stroke="#d7ddc7" stroke-width="43"/>
+  <path d="M230 42v291m100-291v291m100-291v291m100-291v291" stroke="#bbc5a4" stroke-width="2" stroke-dasharray="3 10"/>
+  <g fill="#a5b28f"><rect x="213" y="74" width="34" height="34" rx="7"/><rect x="313" y="113" width="34" height="34" rx="7"/><rect x="413" y="61" width="34" height="34" rx="7"/><rect x="513" y="125" width="34" height="34" rx="7"/></g>
+  <g fill="#fcf8ea" font-family="KaiTi,STKaiti,serif" font-size="23" text-anchor="middle"><text x="230" y="100">妖</text><text x="330" y="139">妖</text><text x="430" y="87">怪</text><text x="530" y="151">妖</text></g>
+  <g fill="#b1bda0"><rect x="194" y="234" width="72" height="72" rx="13"/><rect x="294" y="234" width="72" height="72" rx="13"/><rect x="394" y="234" width="72" height="72" rx="13"/><rect x="494" y="234" width="72" height="72" rx="13"/></g>
+  <g fill="#f9f6e9" stroke="#a0b18a" stroke-width="2"><rect x="194" y="227" width="72" height="72" rx="13"/><rect x="294" y="227" width="72" height="72" rx="13"/><rect x="394" y="227" width="72" height="72" rx="13"/><rect x="494" y="227" width="72" height="72" rx="13"/></g>
+  <g font-family="KaiTi,STKaiti,serif" font-size="43" text-anchor="middle"><text x="230" y="277" fill="#69865d">弓</text><text x="330" y="277" fill="#b87656">火</text><text x="430" y="277" fill="#6e9597">冰</text><text x="530" y="277" fill="#69865d">弓</text></g>
+  <path d="M163 327h434" stroke="#95a77f" stroke-width="5" stroke-linecap="round"/><path d="m101 249 5-17 7 17m550-78 6-17 6 17" stroke="#a9b993" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#a8b891"><circle cx="116" cy="154" r="4"/><circle cx="635" cy="292" r="5"/></g>
+</svg>

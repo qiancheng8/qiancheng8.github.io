@@ -1,0 +1,39 @@
+{
+  "name": "night-market",
+  "title": "夜市收摊整理",
+  "version": "1.0.0",
+  "builtAt": "2026-10-24T05:07:13.163Z",
+  "entry": "index.html",
+  "files": [
+    {
+      "file": "game.96bc3dea88fa.js",
+      "bytes": 49281,
+      "sha256": "96bc3dea88fa407ba06ca61e328412b71e928761fbe1d9b9804eeb9148180298"
+    },
+    {
+      "file": "game.f47cfc74a112.css",
+      "bytes": 29349,
+      "sha256": "f47cfc74a112fbb30b4cebf0d8e35594af53668fc93337cbe1d4637f5b5f2950"
+    },
+    {
+      "file": "index.html",
+      "bytes": 526,
+      "sha256": "2d645fa0bc3c29aca0113c71618c3ed761fc4e3fe5bbe1946ab7e621db0843de"
+    },
+    {
+      "file": "assets/icon.svg",
+      "bytes": 249,
+      "sha256": "00ef8eded8d5d85704d6a0ed2633d2140b0d2903b23057c349a930e9e271f2c6"
+    },
+    {
+      "file": "assets/cover.svg",
+      "bytes": 2106,
+      "sha256": "026f0579c3b0127877b041aaaed14807bc01872030dabb99ab127a4e29ba64b8"
+    },
+    {
+      "file": "DEPLOYMENT.txt",
+      "bytes": 206,
+      "sha256": "895d2ff0786fe01c4f11bd8925188ca964a1bb50b7a3afbd5bb4fbc4c81fdef0"
+    }
+  ]
+}
