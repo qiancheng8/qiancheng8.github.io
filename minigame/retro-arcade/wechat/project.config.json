@@ -1,13 +1,14 @@
 {
   "description": "8090 像素游戏厅：七款经典小游戏合集",
   "projectname": "8090-retro-arcade-wechat",
-  "appid": "touristappid",
+  "appid": "wx5e89041b4ed816c2",
   "compileType": "game",
   "miniprogramRoot": "./",
   "setting": {
     "es6": true,
     "minified": true,
-    "urlCheck": true
+    "urlCheck": true,
+    "compileHotReLoad": false
   },
   "packOptions": {
     "ignore": [],

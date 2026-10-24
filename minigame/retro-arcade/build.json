@@ -2,7 +2,7 @@
   "name": "8090-retro-arcade",
   "title": "8090 像素游戏厅",
   "version": "1.2.0",
-  "builtAt": "2026-10-23T07:58:41.094Z",
+  "builtAt": "2026-10-24T05:05:02.601Z",
   "entry": "index.html",
   "games": [
     {
@@ -103,8 +103,8 @@
     },
     {
       "file": "wechat/project.config.json",
-      "bytes": 338,
-      "sha256": "6c3db796410a4f764f52a692287a19c45f3d219dbdb611fb569c993b857c29d9"
+      "bytes": 375,
+      "sha256": "d3cf4687df1628d630ea6d38c3aaa910fd1814f8a91e1516b33e11d095f709fe"
     },
     {
       "file": "wechat/README.md",
@@ -188,8 +188,8 @@
     },
     {
       "file": "douyin/project.config.json",
-      "bytes": 326,
-      "sha256": "e1b2a5992940f2fdc769df0842e302f111ce782de6dcf592d0508592c2d8ff1f"
+      "bytes": 357,
+      "sha256": "3e574ff600bfdfd2bc2df66bd0da99abf2a00f7e410515f94bbc3f9ac47e12b1"
     },
     {
       "file": "douyin/README.md",
